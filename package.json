@@ -1,0 +1,24 @@
+{
+  "name": "webfiles",
+  "version": "1.0.0",
+  "description": "fullstack web development project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chingching2002@bitbucket.org/chingching2002/strawbnny-project.git"
+  },
+  "author": "Annissa Mu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/chingching2002/strawbnny-project/issues"
+  },
+  "homepage": "https://bitbucket.org/chingching2002/strawbnny-project#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
