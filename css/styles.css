@@ -1,0 +1,80 @@
+@font-face {
+  src: url(fonts/DynaPuff-VariableFont_wdth,wght.ttf);
+  font-family: dynaPuff
+}
+@font-face {
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+  font-family: monteserrat
+}
+@font-face {
+  src: url(fonts/Quicksand-VariableFont_wght.ttf);
+  font-family: quicksand
+}
+/* overall css styles */
+body {
+  background-color: #FAD9D5;
+}
+.pink-text {
+  color: #FFDBF2;
+  font-family: dynaPuff;
+}
+.quicksandtext {
+  font-family: quicksand;
+}
+.monteserattext {
+    font-family: monteserrat;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 5px ridge;
+}
+
+/* naviation css styles */
+.navbar {
+  background-color: #56517E;
+}
+.bunnylogo {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border: 5px solid white;
+}
+.navheader {
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
+.navbar-collapse{
+  font-size: 20px;
+}
+
+
+#gardencarousel {
+  margin-top: 135px;
+}
+#gardenButton {
+  right: 42%;
+  position: absolute;
+  bottom: 58%;
+  height: 10%;
+  width: 17%;
+}
+#gardenButtonkey {
+  right: 42%;
+  position: absolute;
+  bottom: 22%;
+  height: 10%;
+  width: 17%;
+}
+.btn-light {
+  background-color: #56517E;
+  border-width: 0px;
+}
+#ponyocarousel {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
